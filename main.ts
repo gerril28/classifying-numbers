@@ -4,8 +4,8 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.AB, function () {
     if (number > 0) {
         basic.showString("N")
-    } else if (0 < 0) {
-    	
+    } else if (number < 0) {
+        basic.showString("P")
     } else {
     	
     }
